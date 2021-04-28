@@ -17,6 +17,9 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
+            <properties>
+                <altDeploymentRepository>maven2.releases.levigo.de::default::${REPOSITORY_URL}</altDeploymentRepository>
+            </properties>
             <repositories>
                 <repository>
                     <id>maven-central</id>
