@@ -22,65 +22,6 @@ import java.io.OutputStream;
 /**
  * An output stream for writing font data.
  *
- * <p>The data types used are as listed:
- *
- * <table>
- * <tr>
- * <td>BYTE</td>
- * <td>8-bit unsigned integer.</td>
- * </tr>
- * <tr>
- * <td>CHAR</td>
- * <td>8-bit signed integer.</td>
- * </tr>
- * <tr>
- * <td>USHORT</td>
- * <td>16-bit unsigned integer.</td>
- * </tr>
- * <tr>
- * <td>SHORT</td>
- * <td>16-bit signed integer.</td>
- * </tr>
- * <tr>
- * <td>UINT24</td>
- * <td>24-bit unsigned integer.</td>
- * </tr>
- * <tr>
- * <td>ULONG</td>
- * <td>32-bit unsigned integer.</td>
- * </tr>
- * <tr>
- * <td>LONG</td>
- * <td>32-bit signed integer.</td>
- * </tr>
- * <tr>
- * <td>Fixed</td>
- * <td>32-bit signed fixed-point number (16.16)</td>
- * </tr>
- * <tr>
- * <td>FUNIT</td>
- * <td>Smallest measurable distance in the em space.</td>
- * </tr>
- * <tr>
- * <td>FWORD</td>
- * <td>16-bit signed integer (SHORT) that describes a quantity in FUnits.</td>
- * </tr>
- * <tr>
- * <td>UFWORD</td>
- * <td>16-bit unsigned integer (USHORT) that describes a quantity in FUnits.
- * </td>
- * </tr>
- * <tr>
- * <td>F2DOT14</td>
- * <td>16-bit signed fixed number with the low 14 bits of fraction (2.14).</td>
- * </tr>
- * <tr>
- * <td>LONGDATETIME</td>
- * <td>Date represented in number of seconds since 12:00 midnight, January 1,
- * 1904. The value is represented as a signed 64-bit integer.</td>
- * </tr>
- * </table>
- *
  * @author Stuart Gill
  * @see FontInputStream
  */
